@@ -1,2 +1,8 @@
 console.log(window.innerWidth);
-console.log(window.outerWidth);
+console.log(dayjs());
+
+const todaysDate = dayjs().format("dddd, MMMM DD");
+
+console.log(todaysDate);
+
+document.getElementById("currentDay").innerHTML = todaysDate;
