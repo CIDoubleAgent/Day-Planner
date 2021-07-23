@@ -36,6 +36,10 @@ textarea {
   border-top: 1px solid white;
 }
 
+.input-group-text {
+  border: none;
+}
+
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -63,6 +67,7 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  width: 90px;
 }
 
 .saveBtn i:hover {
