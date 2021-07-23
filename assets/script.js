@@ -1,4 +1,10 @@
-console.log(window.innerWidth);
+const currentDayEl = $("#currentDay");
+const currentTime = moment();
 
-const todaysDate = moment();
-document.getElementById("currentDay").innerHTML = todaysDate.format("dddd, MMMM Do");
+function displayTime() {
+    var rightNow = moment().format('dddd, MMMM Do');
+    currentDayEl.text(rightNow);
+}
+
+setInterval(displayTime, 1000);
+  
