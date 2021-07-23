@@ -1,5 +1,4 @@
 console.log(window.innerWidth);
 
-const todaysDate = moment().format("dddd, MMMM Do");
-document.getElementById("currentDay").innerHTML = todaysDate;
-
+const todaysDate = moment();
+document.getElementById("currentDay").innerHTML = todaysDate.format("dddd, MMMM Do");
