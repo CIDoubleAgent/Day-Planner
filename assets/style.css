@@ -36,14 +36,12 @@ textarea {
   border-top: 1px solid white;
 }
 
-.input-group-text {
-  border: none;
-}
-
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-left: none;
+  border-bottom: none;
 }
 
 .past {
@@ -73,4 +71,8 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+#clearDay {
+  margin-top: 35px;
 }
