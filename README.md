@@ -13,6 +13,6 @@ https://github.com/CIDoubleAgent/Day-Planner
 # completed
 7/25/2021
 
-https://github.com/CIDoubleAgent/Day-Planner/blob/main/images/Work%20Day%20Scheduler_1.png
+![Work Day Scheduler_1](https://github.com/CIDoubleAgent/Day-Planner/blob/main/images/Work%20Day%20Scheduler_1.png)
 
-https://github.com/CIDoubleAgent/Day-Planner/blob/main/images/Work%20Day%20Scheduler_2.png
+![Work Day Scheduler_2](https://github.com/CIDoubleAgent/Day-Planner/blob/main/images/Work%20Day%20Scheduler_2.png)
