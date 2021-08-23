@@ -22,7 +22,7 @@ var interval = setInterval(function() {
   $('#currentDay').html(currentDate);
 }, 100);
 
-function initPage() {
+function init() {
 
   console.log("Current Hour " + hour);
   var init9 = JSON.parse(localStorage.getItem("09:00 am"));
@@ -77,8 +77,8 @@ function background () {
   });
 }
 
-$(document).ready(function(){
-  initPage()
+$(document).ready(function() {
+  init()
   background()
 
   $(".saveBtn").on("click", function(){
@@ -92,7 +92,7 @@ $(document).ready(function(){
 
   $("#clearDay").on("click", function(){
     localStorage.clear();
-    initPage()
+    init()
   }) 
 
 });
