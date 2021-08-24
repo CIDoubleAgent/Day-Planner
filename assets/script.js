@@ -1,9 +1,8 @@
 
-let todaysDate = moment().format("dddd, MMMM Do");
-let currentHour = moment().format('h:mm:ss a');
 let userInput;
 let hourSpan;
 let hour = moment().hours();
+const todaysDate = moment().format("dddd, MMMM Do");
 const nineAm = $("#9");
 const tenAm = $("#10");
 const elevenAm = $("#11");
