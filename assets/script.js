@@ -17,7 +17,7 @@ let interval = setInterval(function() {
   $('#day').html(todaysDate);
 }, 1 * 100);
 
-function initScheduler() {
+function initSchedule() {
   const am9 = JSON.parse(localStorage.getItem("09:00 am"));
   nineAm.val(am9);
   const am10 = JSON.parse(localStorage.getItem("10:00 am"))
@@ -42,8 +42,6 @@ function backgroundColor () {
   $(".form-control").each(function () {
       let time = parseInt($(this).attr("id"));
       hour = parseInt(hour);
-      console.log(time);
-      console.log(hour);
 
       if (hour > time) {
           $(this).addClass("past");
@@ -56,7 +54,7 @@ function backgroundColor () {
 }
 
 $(document).ready(function() {
-  initScheduler()
+  initSchedule()
   backgroundColor()
 
   $(".save").on("click", function(){
@@ -69,6 +67,6 @@ $(document).ready(function() {
 
   $("#clear").on("click", function(){
     localStorage.clear();
-    initScheduler()
+    initSchedule()
   }) 
 });
